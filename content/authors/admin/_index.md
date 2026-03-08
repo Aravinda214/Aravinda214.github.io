@@ -82,7 +82,7 @@ education:
   - area: Bachelor of Technology in Computer Science and Engineering
     institution: Vellore Institute of Technology
     date_start: 2019-07-01
-    date_end: 2023-06-31
+    date_end: 2023-06-30
     summary: |
      Built a strong foundation in computer science, software development, and applied machine learning through coursework, projects, and research-oriented work.
 
