@@ -102,7 +102,7 @@ work:
     company_name: Carnegie Mellon University
     company_url: https://www.cmu.edu/
     company_logo: 'cmu.svg'
-    date_start: 2026-01-01
+    date_start: '2026-01-01'
     date_end: ''
     summary: |2-
       Supporting research under [Prof. Mohsen Foroughifar](https://scholars.cmu.edu/13301-mohsen-foroughifar) on large-scale digital advertising and bidstream data analysis.
@@ -114,8 +114,8 @@ work:
     company_name: Carnegie Mellon University
     company_url: 'https://www.cmu.edu/'
     company_logo: 'cmu.svg'
-    date_start: 2025-05-01
-    date_end: 2025-12-31
+    date_start: '2025-05-01'
+    date_end: '2025-12-31'
     summary: |2-
       Conducted large-scale data analysis on U.S. copyright registrations under [Prof. Rahul Telang](https://rtelang-heinz.andrew.cmu.edu/).
       - Cleaned, classified, and analyzed large motion picture and film-related registration datasets
@@ -124,8 +124,8 @@ work:
   - position: Student Technology Consultant
     company_name: Kearney
     company_url: 'https://www.kearney.com/'
-    company_logo: 'Kearney.svg'
-    date_start: 2025-08-01
+    company_logo: 'kearney.svg'
+    date_start: '2025-08-01'
     date_end: '2025-12-31'
     summary: |2-
       Worked on data-driven economic and industry analysis to support strategic decision-making.
@@ -136,8 +136,8 @@ work:
     company_name: Carnegie Mellon University
     company_url: https://www.cmu.edu/
     company_logo: 'cmu.svg'
-    date_start: 2024-12-01
-    date_end: 2025-04-30
+    date_start: '2024-12-01'
+    date_end: '2025-04-30'
     summary: |2-
       Supported research on app usage behavior for the HumSafer driver-safety initiative under [Prof. Uttara Ananthakrishnan](https://sites.google.com/view/druttara/).
       - Analyzed concurrent mobile app usage patterns to uncover behavioral and engagement trends
@@ -146,9 +146,9 @@ work:
   - position: Associate Technology Consultant
     company_name: PwC India
     company_url: https://www.pwc.in/
-    company_logo: 'PwC.svg'
-    date_start: 2023-07-01
-    date_end: 2024-04-30
+    company_logo: 'pwc.svg'
+    date_start: '2023-07-01'
+    date_end: '2024-04-30'
     summary: |2-
       Worked across consulting and engineering projects spanning dashboards, digital transformation, and generative AI applications.
       - Developed React-based dashboards and admin workflows for a state government institutional ranking platform
@@ -158,9 +158,9 @@ work:
   - position: Technology Consultant Intern
     company_name: PwC India
     company_url: https://www.pwc.in/
-    company_logo: 'PwC.svg'
-    date_start: 2023-01-01
-    date_end: 2023-07-01
+    company_logo: 'pwc.svg'
+    date_start: '2023-01-01'
+    date_end: '2023-07-01'
     summary: |2-
       Contributed to technology consulting and software delivery projects across engineering and IT assessment work.
       - Supported Java and React-based application development during client delivery
