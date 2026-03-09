@@ -29,8 +29,8 @@ role: AI & Software Engineer
 organizations:
   - name: Carnegie Mellon University
     url: https://www.cmu.edu/
-  - name: Kearney
-    url: https://www.kearney.com/
+  # - name: Kearney
+  #   url: https://www.kearney.com/
   - name: PwC
     url: https://www.pwc.com/us/en.html
 # Social network links
@@ -101,7 +101,7 @@ work:
   - position: Research Assistant
     company_name: Carnegie Mellon University
     company_url: https://www.cmu.edu/
-    company_logo: 'icons/cmu.svg'
+    company_logo: 'cmu.svg'
     date_start: 2026-01-01
     date_end: ''
     summary: |2-
@@ -113,7 +113,7 @@ work:
   - position: Research Assistant
     company_name: Carnegie Mellon University
     company_url: 'https://www.cmu.edu/'
-    company_logo: 'icons/cmu.svg'
+    company_logo: 'cmu.svg'
     date_start: 2025-05-01
     date_end: 2025-12-31
     summary: |2-
@@ -121,21 +121,10 @@ work:
       - Cleaned, classified, and analyzed large motion picture and film-related registration datasets
       - Studied major copyright holders and the types of works they registered, including scripts, soundtracks, and full films
       - Used text-based analysis and structured metadata to identify long-term registration patterns and trends
-  - position: Research Assistant
-    company_name: Carnegie Mellon University
-    company_url: https://www.cmu.edu/
-    company_logo: 'icons/cmu.svg'
-    date_start: 2024-12-01
-    date_end: 2025-04-30
-    summary: |2-
-      Supported research on app usage behavior for the HumSafer driver-safety initiative under [Prof. Uttara Ananthakrishnan].
-      - Analyzed concurrent mobile app usage patterns to uncover behavioral and engagement trends
-      - Built visualizations and summaries to communicate insights clearly to research stakeholders
-      - Contributed to data-driven recommendations aimed at improving user safety outcomes
   - position: Student Technology Consultant
     company_name: Kearney
     company_url: 'https://www.kearney.com/'
-    company_logo: 'icons/Kearney.svg'
+    company_logo: 'Kearney.svg'
     date_start: 2025-08-01
     date_end: '2025-12-31'
     summary: |2-
@@ -143,10 +132,21 @@ work:
       - Built regional and industry economic indices and interactive dashboards for business users
       - Analyzed time-offset relationships and behavioral patterns across sectors using structured data workflows
       - Translated analytical findings into business-facing insights for decision support
+  - position: Research Assistant
+    company_name: Carnegie Mellon University
+    company_url: https://www.cmu.edu/
+    company_logo: 'cmu.svg'
+    date_start: 2024-12-01
+    date_end: 2025-04-30
+    summary: |2-
+      Supported research on app usage behavior for the HumSafer driver-safety initiative under [Prof. Uttara Ananthakrishnan](https://sites.google.com/view/druttara/).
+      - Analyzed concurrent mobile app usage patterns to uncover behavioral and engagement trends
+      - Built visualizations and summaries to communicate insights clearly to research stakeholders
+      - Contributed to data-driven recommendations aimed at improving user safety outcomes
   - position: Associate Technology Consultant
     company_name: PwC India
     company_url: https://www.pwc.in/
-    company_logo: 'icons/PwC.svg'
+    company_logo: 'PwC.svg'
     date_start: 2023-07-01
     date_end: 2024-04-30
     summary: |2-
@@ -158,7 +158,7 @@ work:
   - position: Technology Consultant Intern
     company_name: PwC India
     company_url: https://www.pwc.in/
-    company_logo: 'icons/PwC.svg'
+    company_logo: 'PwC.svg'
     date_start: 2023-01-01
     date_end: 2023-07-01
     summary: |2-
@@ -274,8 +274,6 @@ awards:
 
 ## About Me
 
-I am an AI and software engineer who works at the intersection of business needs, data, and technology to build practical solutions. My background spans software engineering, analytics, applied research, and consulting, which has helped me develop a problem-solving approach that is both technically grounded and business-aware.
+I am an AI and software engineer who works at the intersection of business needs, data, and technology to build practical solutions. My background spans software engineering, analytics, applied research, and consulting, giving me a problem-solving approach that is both technically grounded and business-aware.
 
-Across industry and academic settings, I have worked on projects involving AI-powered applications, full-stack systems, dashboards, large-scale data analysis, and research-driven insights. From building government-facing platforms and document intelligence solutions at PwC, to analyzing behavioral and copyright datasets at Carnegie Mellon, my work has consistently focused on translating complex requirements into useful, real-world outcomes.
-
-I am especially interested in building intelligent and data-driven systems that are not only technically strong, but also meaningful for the people and organizations using them. My goal is to create solutions that connect engineering, analytics, and clear communication to solve real problems effectively.
+I am especially interested in building intelligent and data-driven systems that turn complex requirements into useful, real-world outcomes through a combination of engineering, analysis, and clear communication.
