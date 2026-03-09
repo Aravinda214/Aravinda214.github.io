@@ -235,14 +235,14 @@ awards:
   - title: Special Jury Award
     date: '2023-01-01'
     awarder: IBM & Smart Internz
-    icon: award
+    # icon: award
     summary: |
       Recognized for project excellence and innovation in applied technology work.
 
   - title: Hack Hub Winner
     date: '2023-01-01'
     awarder: Hack Hub
-    icon: trophy
+    # icon: trophy
     summary: |
       Won for building a strong technical solution in a competitive hackathon environment.
   # - title: Neural Networks and Deep Learning
