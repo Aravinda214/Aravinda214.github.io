@@ -1,47 +1,71 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# Aravinda Boovaraghavan Portfolio
 
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/)
+Personal portfolio site built with Hugo Blox and Tailwind CSS.
 
-The Hugo **Academic CV Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+## Stack
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+- Hugo `0.148.2`
+- Hugo Blox modules
+- Tailwind CSS v4
+- Netlify and GitHub Pages deployment workflows
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, Hugo Blox Builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+## Repo Structure
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+- `config/_default/`
+  Site-wide Hugo, menu, language, and theme configuration.
+- `content/_index.md`
+  Homepage sections and landing-page composition.
+- `content/authors/admin/_index.md`
+  Primary profile data: bio, education, work history, skills, awards, and social links.
+- `content/experience.md`
+  Experience page configuration using the author profile data.
+- `content/projects.md`
+  Projects landing page configuration.
+- `content/project/`
+  Individual project pages.
+- `content/publication/`
+  Publication entries, PDFs, featured images, and BibTeX files.
+- `assets/media/`
+  Custom images and organization logos.
+- `layouts/partials/hooks/head-end/github-button.html`
+  Small custom head injection for GitHub button support.
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://hugoblox.com/creators/).
+## Common Content Updates
 
-The integrated [**Hugo Blox Builder**](https://hugoblox.com) and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+- Update personal details, education, work history, skills, and awards in `content/authors/admin/_index.md`.
+- Edit homepage sections in `content/_index.md`.
+- Add or update publications in `content/publication/<slug>/`.
+- Add or update projects in `content/project/<slug>/`.
+- Update navigation in `config/_default/menus.yaml`.
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 💡 [Suggest an improvement](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+## Local Development
 
-## We ask you, humbly, to support this open source movement
+Install the required tools first:
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
+- Hugo extended `0.148.2`
+- Node.js
+- pnpm
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+Then run:
 
-### [❤️ Click here to become a Sponsor, unlocking awesome perks such as _exclusive academic templates and blocks_](https://hugoblox.com/sponsor/)
+```bash
+pnpm install
+hugo server --disableFastRender
+```
 
-<!--
-<p align="center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="https://hugoblox.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Hugo Blox Builder"></a></p>
--->
+For a production build:
 
-## Demo image credits
+```bash
+hugo --minify
+```
 
-- [Unsplash](https://unsplash.com)
+## Deployment
 
-## Latest news
+- `netlify.toml` builds the site on Netlify and generates a Pagefind index.
+- `.github/workflows/deploy.yml` builds and deploys the site to GitHub Pages.
 
-<!--START_SECTION:news-->
-<!--Updated at 2025-08-24T02:05:42.085Z-->
-<!--END_SECTION:news-->
+## Notes
+
+- The site is no longer using the starter project placeholder content.
+- Publication entries currently double as the most detailed source of truth for linked research projects.
+- If you add Hugo or Tailwind features later, this repo is already set up for that workflow, but the required binaries need to exist on the machine or CI runner.

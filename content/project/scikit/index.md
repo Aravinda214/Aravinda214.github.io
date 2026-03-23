@@ -1,15 +1,19 @@
 ---
-title: scikit-learn
-date: 2023-10-26
+title: Suicide Rate Analysis Dashboard
+slug: suicide-rate-analysis-dashboard
+date: 2026-03-03
 links:
   - type: site
-    url: https://github.com/scikit-learn/scikit-learn
+    url: /publication/suicide-rate-smart-cities/
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  - Predictive Analytics
+  - Smart Cities
+  - Mental Health
+  - Data Visualization
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
+A data analysis and prediction project focused on suicide trends in smart-city settings, with an emphasis on interpretable patterns and public-health monitoring.
+
+The work combines visualization, feature analysis, and regression-based modeling to study how factors such as location, age group, and year influence outcomes.
 
 <!--more-->

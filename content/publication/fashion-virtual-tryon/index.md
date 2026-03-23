@@ -2,9 +2,9 @@
 title: 'Bridging the Gap Between Online and In-Store Shopping: Fashion Recommendations and Virtual Try-On'
 
 authors:
-  - admin
   - VV Vaishnavi
   - GO Narendra
+  - admin
 
 date: '2024-11-18T00:00:00Z'
 publishDate: '2024-11-18T00:00:00Z'

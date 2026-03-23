@@ -1,15 +1,19 @@
 ---
-title: Pandas
-date: 2023-10-26
+title: Fashion Recommendation and Virtual Try-On
+slug: fashion-recommendation-virtual-tryon
+date: 2024-11-18
 links:
   - type: site
-    url: https://github.com/pandas-dev/pandas
+    url: /publication/fashion-virtual-tryon/
 tags:
-  - Hugo
-  - Wowchemy
-  - Markdown
+  - Computer Vision
+  - Fashion Recommendation
+  - Virtual Try-On
+  - Deep Learning
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+An applied computer vision project that combines clothing recommendation with virtual try-on to make online shopping more interactive and personalized.
+
+The system uses DeepFashion-based image embeddings for retrieval and U2Net-based segmentation to visualize garments on user photos.
 
 <!--more-->
