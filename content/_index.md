@@ -36,16 +36,28 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: 'Building Practical Solutions at the Intersection of Business, Data, and Technology'
+      title: 'Software Engineering, AI/ML, and Analytics for Real-World Systems'
       subtitle: ''
       text: |-
-        My work sits at the intersection of engineering, analytics, and problem solving. Across consulting, research, and software development roles, I have worked on projects involving AI-powered applications, full-stack systems, dashboards, and large-scale data analysis.
+        I am a Carnegie Mellon MISM graduate focused on software engineering, AI/ML systems, and data analytics. My work spans recommender systems, retrieval-based AI applications, dashboards, research analytics, and product-minded technical delivery.
 
-        From building government-facing digital platforms and document intelligence solutions at PwC, to analyzing behavioral, copyright, and advertising datasets at Carnegie Mellon, I enjoy translating ambitious requirements into practical, data-driven solutions.
+        From building government-facing digital platforms and document intelligence solutions at PwC, to working on advertising, copyright, and behavioral datasets at Carnegie Mellon, I enjoy turning ambiguous problems into reliable systems, clear analyses, and practical user-facing solutions.
 
-        This portfolio brings together the projects, research, publications, and technical work that reflect that journey.
+        This portfolio brings together the projects, research, publications, and technical work that best reflect that mix of engineering depth, analytical thinking, and applied experimentation.
     design:
       columns: '1'
+  - block: collection
+    content:
+      title: Featured Projects
+      text: A selection of portfolio work spanning applied AI, software engineering, analytics, and distributed systems.
+      filters:
+        folders:
+          - project
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 3
+      fill_image: false
   - block: collection
     id: publications
     content:

@@ -29,14 +29,15 @@ featured: true
 links:
   - type: pdf
     url: fashion-virtual.pdf
+  - type: site
+    url: https://ieeexplore.ieee.org/document/10810981
 
 image:
   caption: ''
   focal_point: ''
   preview_only: false
 
-projects:
-  - fashion-recommendation-virtual-tryon
+projects: []
 
 slides: ""
 ---

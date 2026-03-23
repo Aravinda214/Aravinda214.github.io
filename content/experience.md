@@ -15,12 +15,12 @@ sections:
       username: admin
     design:
       # Hugo date format
-      date_format: 'March 2026'
+      date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: Core Skills
       username: admin
     design:
       show_skill_percentage: false

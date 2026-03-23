@@ -31,14 +31,15 @@ featured: true
 links:
   - type: pdf
     url: building-defects.pdf
+  - type: site
+    url: https://doi.org/10.1504/IJSTRUCTE.2025.146919
 
 image:
   caption: ''
   focal_point: ''
   preview_only: false
 
-projects:
-  - building-defect-detection
+projects: []
 
 slides: ""
 ---

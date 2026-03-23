@@ -31,6 +31,8 @@ featured: false
 links:
   - type: pdf
     url: suicide-rates.pdf
+  - type: site
+    url: https://doi.org/10.1002/9781394233823.ch31
 
 image:
   caption: ''
@@ -38,7 +40,7 @@ image:
   preview_only: false
 
 projects:
-  - suicide-rate-analysis-dashboard
+  - prediction-and-analysis-of-suicide-rates
 
 slides: ""
 ---

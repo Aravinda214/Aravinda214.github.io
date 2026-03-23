@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: AI & Software Engineer
+role: Software Engineer | AI/ML & Data Systems
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -53,10 +53,10 @@ profiles:
   #   url: https://orcid.org/
 
 interests:
-  - AI & Intelligent Systems
-  - Software Engineering
-  - Data Analytics & Applied Research
-  - Business-Driven Problem Solving
+  - Machine Learning Systems
+  - LLM, RAG, and Intelligent Applications
+  - Software Engineering and Product Delivery
+  - Data Analytics and Applied Research
 
 education:
   - area: Master of Information Systems Management
@@ -171,62 +171,81 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Engineering & AI
+  - name: Software Engineering
     items:
       - name: Python
         description: ''
-        percent: 90
-        icon: code-bracket
-      - name: Java
-        description: ''
-        percent: 80
+        percent: 95
         icon: code-bracket
       - name: JavaScript / React
         description: ''
         percent: 85
         icon: code-bracket
-      - name: AI / ML
+      - name: APIs, Backend Systems, and Flask
+        description: ''
+        percent: 85
+        icon: server
+      - name: Testing, CI/CD, and Docker
+        description: ''
+        percent: 80
+        icon: command-line
+
+  - name: AI / ML Systems
+    items:
+      - name: LLM, RAG, and Retrieval Systems
+        description: ''
+        percent: 90
+        icon: cpu-chip
+      - name: Recommendation and Ranking
         description: ''
         percent: 85
         icon: cpu-chip
-
-  - name: Data & Analytics
-    items:
-      - name: SQL
+      - name: NLP, Embeddings, and Vector Search
         description: ''
         percent: 85
         icon: circle-stack
-      - name: Data Analysis
+      - name: Model Evaluation and Experimentation
         description: ''
         percent: 90
-        icon: chart-bar
-      - name: Visualization
+        icon: magnifying-glass
+
+  - name: Data Analytics
+    items:
+      - name: SQL, Pandas, and Data Workflows
+        description: ''
+        percent: 90
+        icon: circle-stack
+      - name: Dashboards and Visualization
         description: ''
         percent: 85
         icon: presentation-chart-line
-      - name: Research Workflows
+      - name: Forecasting and Applied Research
         description: ''
-        percent: 80
+        percent: 85
+        icon: chart-bar
+      - name: Business and Research Analytics
+        description: ''
+        percent: 85
         icon: magnifying-glass
 
-  - name: Tools & Platforms
+  - name: Platforms and Tools
     items:
-      - name: AWS / Azure
-        description: ''
-        percent: 75
-        icon: cloud
       - name: Git / GitHub
         description: ''
         percent: 85
         icon: command-line
-      - name: Flask / Spring Boot
+      - name: MongoDB, Streamlit, and Slack Integrations
         description: ''
-        percent: 80
-        icon: server
-      - name: Tableau / Power BI / Streamlit
-        description: ''
-        percent: 80
+        percent: 85
         icon: chart-pie
+      - name: FAISS, LangChain, and LlamaIndex
+        description: ''
+        percent: 80
+        icon: cpu-chip
+      - name: Ethereum, Solidity, and IPFS
+        description: ''
+        percent: 75
+        icon: cloud
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
@@ -274,6 +293,6 @@ awards:
 
 ## About Me
 
-I am an AI and software engineer who works at the intersection of business needs, data, and technology to build practical solutions. My background spans software engineering, analytics, applied research, and consulting, giving me a problem-solving approach that is both technically grounded and business-aware.
+I am a software engineer and Carnegie Mellon MISM graduate focused on AI/ML systems, data analytics, and product-minded engineering. My background spans software development, applied research, analytics, and consulting, which gives me a practical approach to building reliable systems and useful technical products.
 
-I am especially interested in building intelligent and data-driven systems that turn complex requirements into useful, real-world outcomes through a combination of engineering, analysis, and clear communication.
+I am especially interested in recommender systems, retrieval-based AI applications, analytics platforms, and data-driven software that turns ambiguous requirements into clear, real-world outcomes.

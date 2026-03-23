@@ -30,6 +30,8 @@ featured: false
 links:
   - type: pdf
     url: indian-revenues.pdf
+  - type: site
+    url: https://link.springer.com/chapter/10.1007/978-981-19-2358-6_24
 
 image:
   caption: ''
