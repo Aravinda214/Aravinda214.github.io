@@ -25,10 +25,8 @@ role: Software Engineer | AI/ML & Data Systems
 organizations:
   - name: Carnegie Mellon University
     url: https://www.cmu.edu/
-    icon: cmu.svg
   - name: PwC
     url: https://www.pwc.com/us/en.html
-    icon: pwc.svg
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -56,7 +54,6 @@ interests:
 education:
   - area: Master of Information Systems Mgmt. (MISM)
     institution: Carnegie Mellon University
-    icon: cmu.svg
     date_start: 2024-08-01
     date_end: 2025-12-31
     summary: |
@@ -83,7 +80,6 @@ work:
   - position: Research Assistant
     company_name: Carnegie Mellon University
     company_url: https://www.cmu.edu/
-    company_logo: 'cmu.svg'
     date_start: '2026-01-01'
     date_end: ''
     summary: |2-
@@ -95,7 +91,6 @@ work:
   - position: Research Assistant
     company_name: Carnegie Mellon University
     company_url: 'https://www.cmu.edu/'
-    company_logo: 'cmu.svg'
     date_start: '2025-05-01'
     date_end: '2025-12-31'
     summary: |2-
@@ -106,7 +101,6 @@ work:
   - position: Student Technology Consultant
     company_name: Kearney
     company_url: 'https://www.kearney.com/'
-    company_logo: 'kearney.svg'
     date_start: '2025-08-01'
     date_end: '2025-12-31'
     summary: |2-
@@ -117,7 +111,6 @@ work:
   - position: Research Assistant
     company_name: Carnegie Mellon University
     company_url: https://www.cmu.edu/
-    company_logo: 'cmu.svg'
     date_start: '2024-12-01'
     date_end: '2025-04-30'
     summary: |2-
@@ -128,7 +121,6 @@ work:
   - position: Associate Technology Consultant
     company_name: PwC India
     company_url: https://www.pwc.in/
-    company_logo: 'pwc.svg'
     date_start: '2023-07-01'
     date_end: '2024-04-30'
     summary: |2-
@@ -140,7 +132,6 @@ work:
   - position: Technology Consultant Intern
     company_name: PwC India
     company_url: https://www.pwc.in/
-    company_logo: 'pwc.svg'
     date_start: '2023-01-01'
     date_end: '2023-07-01'
     summary: |2-
