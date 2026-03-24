@@ -14,6 +14,10 @@ tags:
   - Analytics
   - NLP
   - Data Products
+image:
+  filename: AI_Slack.png
+  focal_point: Smart
+  preview_only: false
 ---
 
 Business-intelligence style system that tracks conversations about AI, automation, and job impact by combining semantic filtering, persistence, and dashboard analytics.

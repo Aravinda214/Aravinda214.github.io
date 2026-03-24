@@ -14,6 +14,10 @@ tags:
   - Big Data
   - PySpark
   - Exploratory Analysis
+image:
+  filename: Terrorism.png
+  focal_point: Smart
+  preview_only: false
 ---
 
 Large-scale exploratory data analysis project using Spark to study terrorism patterns across regions and time periods.

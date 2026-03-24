@@ -14,6 +14,10 @@ tags:
   - Multimodal AI
   - RAG
   - Data Systems
+image:
+  filename: Intelilgent_Product_System.png
+  focal_point: Smart
+  preview_only: false
 ---
 
 Large-scale GenAI pipeline for e-commerce product understanding, built to unify metadata, reviews, and visual context into grounded, structured outputs.

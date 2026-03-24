@@ -14,6 +14,10 @@ tags:
   - Sports Analytics
   - BI
   - Machine Learning
+image:
+  filename: IPL.png
+  focal_point: Smart
+  preview_only: false
 ---
 
 Sports analytics project built to extract predictive and descriptive insights from IPL match and player data through notebooks, visualizations, and dashboards.

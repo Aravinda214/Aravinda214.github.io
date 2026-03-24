@@ -14,6 +14,10 @@ tags:
   - LLM Applications
   - Multi-Agent Systems
   - Developer Tooling
+image:
+  filename: discord.png
+  focal_point: Smart
+  preview_only: false
 ---
 
 Multi-agent recommendation system that helps users navigate large Discord communities by collecting preferences, ranking channels, and tracing the workflow with LangSmith.

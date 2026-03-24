@@ -14,6 +14,10 @@ tags:
   - Web3
   - Marketplace Design
   - React
+image:
+  filename: P2P.png
+  focal_point: Smart
+  preview_only: false
 ---
 
 Decentralized ride-sharing application designed to explore marketplace coordination, smart-contract payments, and reduced platform centralization.

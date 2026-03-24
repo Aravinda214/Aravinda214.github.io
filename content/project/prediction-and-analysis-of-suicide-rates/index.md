@@ -14,6 +14,10 @@ tags:
   - Public Health
   - R
   - Dashboards
+image:
+  filename: suicide.png
+  focal_point: Smart
+  preview_only: false
 ---
 
 Public-health analytics project that studies suicide-rate patterns across demographics and geography using an interactive dashboard and supporting statistical analysis.

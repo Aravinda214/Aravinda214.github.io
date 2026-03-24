@@ -14,6 +14,10 @@ tags:
   - Forecasting
   - Python
   - Time Series
+image:
+  filename: Web_Analysis.png
+  focal_point: Smart
+  preview_only: false
 ---
 
 Time-series analysis project focused on understanding website traffic behavior and building a forecasting workflow for planning and reporting.

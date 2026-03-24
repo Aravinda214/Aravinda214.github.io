@@ -14,6 +14,10 @@ tags:
   - RAG
   - NLP
   - Information Retrieval
+image:
+  filename: AI_RAG_QA.png
+  focal_point: Smart
+  preview_only: false
 ---
 
 RAG system for semantic question answering over handbook-style policy documents, designed to make long documents easier to search, retrieve, and answer against.

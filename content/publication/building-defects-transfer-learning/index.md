@@ -35,6 +35,7 @@ links:
     url: https://doi.org/10.1504/IJSTRUCTE.2025.146919
 
 image:
+  filename: featured.png
   caption: ''
   focal_point: ''
   preview_only: false

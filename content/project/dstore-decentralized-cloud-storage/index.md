@@ -14,6 +14,10 @@ tags:
   - Web3
   - Security
   - React
+image:
+  filename: Dstore.png
+  focal_point: Smart
+  preview_only: false
 ---
 
 Decentralized storage platform built to address cloud ownership and security concerns through blockchain-based access control and encrypted IPFS-backed file storage.

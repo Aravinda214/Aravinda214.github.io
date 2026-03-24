@@ -14,6 +14,10 @@ tags:
   - Social Impact
   - NLP
   - Applied ML
+image:
+  filename: Divorce.png
+  focal_point: Smart
+  preview_only: false
 ---
 
 Applied AI web application that combines multiple ML components to support structured mental-health and relationship-support workflows.

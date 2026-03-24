@@ -33,6 +33,7 @@ links:
     url: https://ieeexplore.ieee.org/document/10810981
 
 image:
+  filename: fashion.png
   caption: ''
   focal_point: ''
   preview_only: false

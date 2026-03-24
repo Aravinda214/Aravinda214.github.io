@@ -14,6 +14,10 @@ tags:
   - Recommender Systems
   - Software Engineering
   - MLOps
+image:
+  filename: AI_movie_recommendation_System.png
+  focal_point: Smart
+  preview_only: false
 ---
 
 Production-grade recommender system for a streaming-style use case, designed around sparse feedback, cold start behavior, leakage-aware evaluation, and serving reliability.
