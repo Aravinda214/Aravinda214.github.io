@@ -6,7 +6,8 @@ featured: false
 show_date: false
 reading_time: false
 links:
-  - type: site
+  - name: GitHub
+    icon: brands/github
     url: https://github.com/Aravinda214/Exploratory-Data-Analysis-On-Terrorism
 tags:
   - Data Analytics

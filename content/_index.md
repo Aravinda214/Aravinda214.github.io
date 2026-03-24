@@ -13,7 +13,10 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: "I build software, AI/ML, and analytics systems that turn ambiguous problems into reliable, practical outcomes."
+      text: |-
+        I am an AI and software engineer who works at the intersection of business needs, data, and technology to build practical solutions. My background spans software engineering, analytics, applied research, and consulting, giving me a problem-solving approach that is both technically grounded and business-aware.
+
+        I am especially interested in building intelligent and data-driven systems that turn complex requirements into useful, real-world outcomes through a combination of engineering, analysis, and clear communication.
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download Resume
