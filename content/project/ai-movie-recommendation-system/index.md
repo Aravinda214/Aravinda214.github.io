@@ -15,7 +15,7 @@ tags:
   - Software Engineering
   - MLOps
 image:
-  filename: AI_movie_recommendation_System.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---

@@ -15,7 +15,7 @@ tags:
   - NLP
   - Data Products
 image:
-  filename: AI_Slack.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---

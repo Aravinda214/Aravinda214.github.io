@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="AI Movie Recommendation System">
-  <rect width="1200" height="630" fill="#0f172a"/>
-  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#134e4a"/>
-  <circle cx="1030" cy="140" r="88" fill="#0f766e" opacity="0.35"/>
-  <text x="86" y="160" fill="#99f6e4" font-size="28" font-family="Arial, Helvetica, sans-serif">AI / ML</text>
-  <text x="86" y="254" fill="#ffffff" font-size="58" font-weight="700" font-family="Arial, Helvetica, sans-serif">AI Movie Recommendation</text>
-  <text x="86" y="320" fill="#ffffff" font-size="58" font-weight="700" font-family="Arial, Helvetica, sans-serif">System</text>
-  <text x="86" y="410" fill="#d1fae5" font-size="28" font-family="Arial, Helvetica, sans-serif">Hybrid feedback, temporal evaluation, Flask API, CI/CD</text>
-</svg>

@@ -15,7 +15,7 @@ tags:
   - Python
   - Time Series
 image:
-  filename: Web_Analysis.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---

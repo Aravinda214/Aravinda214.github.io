@@ -15,7 +15,7 @@ tags:
   - PySpark
   - Exploratory Analysis
 image:
-  filename: Terrorism.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---

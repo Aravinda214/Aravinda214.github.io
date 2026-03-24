@@ -15,7 +15,7 @@ tags:
   - Marketplace Design
   - React
 image:
-  filename: P2P.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---

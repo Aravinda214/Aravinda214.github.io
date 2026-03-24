@@ -15,7 +15,7 @@ tags:
   - NLP
   - Applied ML
 image:
-  filename: Divorce.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---

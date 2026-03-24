@@ -15,7 +15,7 @@ tags:
   - NLP
   - Information Retrieval
 image:
-  filename: AI_RAG_QA.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---

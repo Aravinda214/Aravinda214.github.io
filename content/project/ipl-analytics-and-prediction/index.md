@@ -15,7 +15,7 @@ tags:
   - BI
   - Machine Learning
 image:
-  filename: IPL.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---

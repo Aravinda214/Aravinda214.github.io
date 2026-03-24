@@ -15,7 +15,7 @@ tags:
   - R
   - Dashboards
 image:
-  filename: suicide.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---

@@ -15,7 +15,7 @@ tags:
   - RAG
   - Data Systems
 image:
-  filename: Intelilgent_Product_System.png
+  filename: featured.png
   focal_point: Smart
   preview_only: false
 ---
