@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="AI Multimodal Product Intelligence System">
+  <rect width="1200" height="630" fill="#111827"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#164e63"/>
+  <circle cx="1010" cy="150" r="92" fill="#22d3ee" opacity="0.25"/>
+  <text x="86" y="160" fill="#a5f3fc" font-size="28" font-family="Arial, Helvetica, sans-serif">GenAI Pipeline</text>
+  <text x="86" y="254" fill="#ffffff" font-size="56" font-weight="700" font-family="Arial, Helvetica, sans-serif">AI Multimodal Product</text>
+  <text x="86" y="320" fill="#ffffff" font-size="56" font-weight="700" font-family="Arial, Helvetica, sans-serif">Intelligence System</text>
+  <text x="86" y="410" fill="#cffafe" font-size="28" font-family="Arial, Helvetica, sans-serif">Streaming ingestion, FAISS retrieval, grounded synthesis</text>
+</svg>

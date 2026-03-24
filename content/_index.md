@@ -39,14 +39,14 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: 'Software Engineering, AI/ML, and Analytics for Real-World Systems'
+      title: 'What I Build'
       subtitle: ''
       text: |-
-        I am a Carnegie Mellon MISM graduate focused on software engineering, AI/ML systems, and data analytics. My work spans recommender systems, retrieval-based AI applications, dashboards, research analytics, and product-minded technical delivery.
+        I enjoy building software and AI systems that move beyond prototypes into useful, decision-supporting tools. That includes recommender systems, retrieval-based applications, analytics workflows, dashboards, and product-minded backend systems.
 
-        From building government-facing digital platforms and document intelligence solutions at PwC, to working on advertising, copyright, and behavioral datasets at Carnegie Mellon, I enjoy turning ambiguous problems into reliable systems, clear analyses, and practical user-facing solutions.
+        My experience spans product engineering, applied research, and consulting, so I am comfortable translating ambiguous business questions into APIs, experiments, models, visualizations, and user-facing workflows that teams can actually use.
 
-        This portfolio brings together the projects, research, publications, and technical work that best reflect that mix of engineering depth, analytical thinking, and applied experimentation.
+        Outside of work, I enjoy movies, cricket, pickleball, photography and exploring how technology, product thinking, and data come together in real-world systems.
     design:
       columns: '1'
   - block: collection

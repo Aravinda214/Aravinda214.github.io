@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Fashion Recommendations and Virtual Try-On">
+  <rect width="1200" height="630" fill="#111827"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#7c3aed"/>
+  <circle cx="1022" cy="148" r="90" fill="#c4b5fd" opacity="0.24"/>
+  <text x="86" y="160" fill="#ddd6fe" font-size="28" font-family="Arial, Helvetica, sans-serif">Publication</text>
+  <text x="86" y="254" fill="#ffffff" font-size="54" font-weight="700" font-family="Arial, Helvetica, sans-serif">Fashion Recommendations</text>
+  <text x="86" y="320" fill="#ffffff" font-size="54" font-weight="700" font-family="Arial, Helvetica, sans-serif">and Virtual Try-On</text>
+  <text x="86" y="410" fill="#ede9fe" font-size="28" font-family="Arial, Helvetica, sans-serif">DeepFashion, retrieval models, and visual try-on</text>
+</svg>

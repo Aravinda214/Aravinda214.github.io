@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="DSTORE Decentralized Cloud Storage">
+  <rect width="1200" height="630" fill="#111827"/>
+  <rect x="48" y="48" width="1104" height="534" rx="28" fill="#1d4ed8"/>
+  <circle cx="1025" cy="150" r="92" fill="#93c5fd" opacity="0.24"/>
+  <text x="86" y="160" fill="#bfdbfe" font-size="28" font-family="Arial, Helvetica, sans-serif">Blockchain / Storage</text>
+  <text x="86" y="254" fill="#ffffff" font-size="58" font-weight="700" font-family="Arial, Helvetica, sans-serif">DSTORE Decentralized</text>
+  <text x="86" y="320" fill="#ffffff" font-size="58" font-weight="700" font-family="Arial, Helvetica, sans-serif">Cloud Storage</text>
+  <text x="86" y="410" fill="#dbeafe" font-size="28" font-family="Arial, Helvetica, sans-serif">Ethereum, IPFS, encryption, smart-contract access control</text>
+</svg>
