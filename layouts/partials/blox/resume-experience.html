@@ -1,0 +1,92 @@
+{{/* Hugo Blox: custom experience override */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $author := $block.content.username | default "admin" }}
+{{ $person_page_path := printf "/authors/%s" $author }}
+{{ $person_page := site.GetPage $person_page_path }}
+{{ if not $person_page }}
+  {{ errorf "Could not find an author page at `%s`." $person_page_path }}
+{{ end }}
+{{ $person := $person_page.Params }}
+{{ $is_education_first := $block.design.is_education_first | default false }}
+{{ $date_format := $block.design.date_format | default "January 2006" }}
+
+<div class="resume-experience-polish px-6 md:px-8">
+  <div class="resume-sections {{ if $is_education_first }}resume-education-first{{ end }}">
+    {{ if $person.work }}
+      <section class="resume-section">
+        <h2 class="resume-section-title">{{ i18n "experience" | default "Experience" }}</h2>
+        <div class="resume-entry-list">
+          {{ range $person.work }}
+            {{ $entry := . }}
+            {{ $logo := "" }}
+            {{ with .company_logo }}
+              {{ $logo = resources.Get (printf "media/icons/brands/%s" .) }}
+              {{ if not $logo }}
+                {{ $logo = resources.Get (printf "media/icons/%s" .) }}
+              {{ end }}
+            {{ end }}
+            <article class="resume-entry-card">
+              <div class="resume-entry-header">
+                <div class="resume-entry-logo">
+                  {{ with $logo }}
+                    <img src="{{ .RelPermalink }}" alt="{{ $entry.company_name }} logo">
+                  {{ else }}
+                    {{ partial "functions/get_icon" (dict "name" "briefcase" "attributes" "style=\"height: 1.1rem; width: 1.1rem;\"") }}
+                  {{ end }}
+                </div>
+                <div class="resume-entry-meta">
+                  <h3 class="resume-entry-role">{{ $entry.position }}</h3>
+                  <div class="resume-entry-company">
+                    {{ with $entry.company_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $entry.company_name }}</a>{{ else }}{{ $entry.company_name }}{{ end }}
+                  </div>
+                  <div class="resume-entry-date">
+                    {{ if $entry.date_start }}{{ (time $entry.date_start) | time.Format $date_format }}{{ end }}{{ if $entry.date_start }} - {{ end }}{{ if $entry.date_end }}{{ (time $entry.date_end) | time.Format $date_format }}{{ else }}{{ i18n "present" | default "Present" }}{{ end }}
+                  </div>
+                </div>
+              </div>
+              <div class="resume-entry-summary prose max-w-none prose-slate dark:prose-invert">{{ $entry.summary | $page.RenderString }}</div>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+
+    {{ if $person.education }}
+      <section class="resume-section">
+        <h2 class="resume-section-title">{{ i18n "education" | default "Education" }}</h2>
+        <div class="resume-entry-list">
+          {{ range $person.education }}
+            {{ $entry := . }}
+            {{ $logo := "" }}
+            {{ with .icon }}
+              {{ $logo = resources.Get (printf "media/icons/brands/%s" .) }}
+              {{ if not $logo }}
+                {{ $logo = resources.Get (printf "media/icons/%s" .) }}
+              {{ end }}
+            {{ end }}
+            <article class="resume-entry-card education-card">
+              <div class="resume-entry-header">
+                <div class="resume-entry-logo">
+                  {{ with $logo }}
+                    <img src="{{ .RelPermalink }}" alt="{{ $entry.institution }} logo">
+                  {{ else }}
+                    {{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "style=\"height: 1.1rem; width: 1.1rem;\"") }}
+                  {{ end }}
+                </div>
+                <div class="resume-entry-meta">
+                  <h3 class="resume-entry-role">{{ $entry.area }}</h3>
+                  <div class="resume-entry-company">{{ $entry.institution }}</div>
+                  <div class="resume-entry-date">
+                    {{ if $entry.date_start }}{{ (time $entry.date_start) | time.Format $date_format }}{{ end }}{{ if $entry.date_start }} - {{ end }}{{ if $entry.date_end }}{{ (time $entry.date_end) | time.Format $date_format }}{{ else }}{{ i18n "present" | default "Present" }}{{ end }}
+                  </div>
+                </div>
+              </div>
+              <div class="resume-entry-summary prose max-w-none prose-slate dark:prose-invert">{{ $entry.summary | $page.RenderString }}</div>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+  </div>
+</div>

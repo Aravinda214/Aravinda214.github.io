@@ -4,7 +4,7 @@ date: 2026-03-08
 type: landing
 
 design:
-  spacing: '5rem'
+  spacing: '4rem'
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 

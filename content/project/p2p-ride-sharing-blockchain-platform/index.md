@@ -3,6 +3,8 @@ title: P2P Ride-Sharing Blockchain Platform
 date: 2026-03-12
 summary: Decentralized ride-sharing application using smart contracts, React, MetaMask payments, and Firebase-backed user workflows.
 featured: false
+show_date: false
+reading_time: false
 links:
   - type: site
     url: https://github.com/Aravinda214/IEEECS-HackHub-2022
@@ -17,17 +19,17 @@ Decentralized ride-sharing application designed to explore marketplace coordinat
 
 <!--more-->
 
-Highlights
+## Highlights
 
 - Built Ethereum smart contracts to support core marketplace logic.
 - Added a React frontend with MetaMask-based wallet and payment flows.
 - Used Firebase for user-facing application workflows and authentication support.
 - Framed the system around platform-fee reduction and decentralized coordination.
 
-Tech Stack
+## Tech Stack
 
 Ethereum, Solidity, React.js, Firebase, MetaMask, and Truffle.
 
-Why It Matters
+## Why It Matters
 
 This project demonstrates full-stack Web3 product design across contracts, payments, frontend integration, and user workflow orchestration.

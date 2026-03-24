@@ -3,6 +3,8 @@ title: Exploratory Data Analysis on Terrorism
 date: 2026-03-11
 summary: Spark-based large-scale exploratory analysis project focused on terrorism patterns across geography and time.
 featured: false
+show_date: false
+reading_time: false
 links:
   - type: site
     url: https://github.com/Aravinda214/Exploratory-Data-Analysis-On-Terrorism
@@ -17,17 +19,17 @@ Large-scale exploratory data analysis project using Spark to study terrorism pat
 
 <!--more-->
 
-Highlights
+## Highlights
 
 - Used PySpark for distributed analysis over a large dataset.
 - Explored geographic and temporal patterns through notebook-based investigation.
 - Combined scalable processing with more familiar Python analytics tooling.
 - Focused on pattern discovery rather than one-off descriptive charts.
 
-Tech Stack
+## Tech Stack
 
 Python, PySpark, Pandas, and Jupyter.
 
-Why It Matters
+## Why It Matters
 
 This project highlights big-data analysis capability and the ability to use distributed tooling when dataset size or processing demands increase.

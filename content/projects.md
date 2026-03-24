@@ -5,7 +5,7 @@ type: landing
 
 design:
   # Section spacing
-  spacing: '5rem'
+  spacing: '4rem'
 
 # Page sections
 sections:
@@ -23,7 +23,7 @@ sections:
       columns: 3
   - block: collection
     content:
-      title: Project Archive
+      title: Other Projects
       text: Additional projects across forecasting, sports analytics, public-health analysis, blockchain applications, and large-scale exploratory data analysis.
       filters:
         folders:

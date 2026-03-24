@@ -12,10 +12,6 @@ last_name: Boovaraghavan
 # Pronouns (optional)
 pronouns: he/him
 
-# Status emoji
-status:
-  icon: ☕️
-
 # Is this the primary user of the site?
 superuser: true
 
@@ -29,18 +25,17 @@ role: Software Engineer | AI/ML & Data Systems
 organizations:
   - name: Carnegie Mellon University
     url: https://www.cmu.edu/
-  # - name: Kearney
-  #   url: https://www.kearney.com/
+    icon: cmu.svg
   - name: PwC
     url: https://www.pwc.com/us/en.html
+    icon: pwc.svg
+
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
     url: 'mailto:aravinda992@gmail.com'
     label: E-mail Me
-  # - icon: brands/x
-  #   url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
     url: https://www.instagram.com/Aravinda_214/
   - icon: brands/github
@@ -53,14 +48,15 @@ profiles:
   #   url: https://orcid.org/
 
 interests:
-  - Machine Learning Systems
-  - LLM, RAG, and Intelligent Applications
-  - Software Engineering and Product Delivery
-  - Data Analytics and Applied Research
+  - ML and Recommender Systems
+  - LLM and RAG Applications
+  - Software Engineering
+  - Applied Analytics and Research
 
 education:
-  - area: Master of Information Systems Management
+  - area: Master of Information Systems Mgmt. (MISM)
     institution: Carnegie Mellon University
+    icon: cmu.svg
     date_start: 2024-08-01
     date_end: 2025-12-31
     summary: |
@@ -76,27 +72,13 @@ education:
       - Digital Transformation
       - Managing Disruptive Technology
       - Decision Making Under Uncertainty
-    # button:
-    #   text: 'Read Thesis'
-    #   url: 'https://example.com'
-  - area: Bachelor of Technology in Computer Science and Engineering
+  - area: B.Tech. in Computer Science and Engineering
     institution: Vellore Institute of Technology
     date_start: 2019-07-01
     date_end: 2023-06-30
     summary: |
-     Built a strong foundation in computer science, software development, and applied machine learning through coursework, projects, and research-oriented work.
+      Built a strong foundation in computer science, software development, and applied machine learning through coursework, projects, and research-oriented work.
 
-  # - area: BSc Artificial Intelligence
-  #   institution: Massachusetts Institute of Technology
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
-  #   summary: |
-  #     GPA: 3.4/4.0
-      
-  #     Courses included:
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Research Assistant
     company_name: Carnegie Mellon University
@@ -246,6 +228,7 @@ skills:
         description: ''
         percent: 75
         icon: cloud
+
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
@@ -264,31 +247,6 @@ awards:
     # icon: trophy
     summary: |
       Won for building a strong technical solution in a competitive hackathon environment.
-  # - title: Neural Networks and Deep Learning
-  #   url: https://www.coursera.org/learn/neural-networks-deep-learning
-  #   date: '2023-11-25'
-  #   awarder: Coursera
-  #   icon: coursera
-  #   summary: |
-  #     I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  # - title: Blockchain Fundamentals
-  #   url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-  #   date: '2023-07-01'
-  #   awarder: edX
-  #   icon: edx
-  #   summary: |
-  #     Learned:
-  #     - Synthesize your own blockchain solutions
-  #     - Gain an in-depth understanding of the specific mechanics of Bitcoin
-  #     - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  # - title: 'Object-Oriented Programming in R'
-  #   url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-  #   certificate_url: https://www.datacamp.com
-  #   date: '2023-01-21'
-  #   awarder: datacamp
-  #   icon: datacamp
-  #   summary: |
-  #     Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
 ## About Me

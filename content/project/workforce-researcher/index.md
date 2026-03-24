@@ -3,6 +3,8 @@ title: Workforce Researcher
 date: 2026-03-18
 summary: Slack bot and analytics dashboard for detecting workforce-impact conversations using embeddings-based semantic similarity.
 featured: true
+show_date: false
+reading_time: false
 links:
   - type: site
     url: https://github.com/Aravinda214/workforce-researcher
@@ -17,17 +19,17 @@ Business-intelligence style system that tracks conversations about AI, automatio
 
 <!--more-->
 
-Highlights
+## Highlights
 
 - Built Slack ingestion and semantic detection using embeddings rather than brittle keyword rules.
 - Persisted results into MongoDB for downstream analysis and historical review.
 - Added Streamlit dashboards for trend analysis, sentiment, and keyword exploration.
 - Focused on real-time workflow integration instead of notebook-only analysis.
 
-Tech Stack
+## Tech Stack
 
 Python, Slack API, OpenAI embeddings, MongoDB, and Streamlit.
 
-Why It Matters
+## Why It Matters
 
 This project demonstrates practical NLP product thinking by combining ingestion, semantic filtering, persistence, and decision-friendly reporting.

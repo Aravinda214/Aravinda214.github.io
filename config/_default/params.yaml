@@ -40,7 +40,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Aravinda Boovaraghavan. All rights reserved.'
+    notice: '(c) {year} Aravinda Boovaraghavan. All rights reserved.'
     license:
       enable: true
       allow_derivatives: false

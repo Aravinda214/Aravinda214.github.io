@@ -1,0 +1,97 @@
+{{/* Hugo Blox: custom biography 3 override */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $author := $block.content.username | default "admin" }}
+{{ $person_page_path := printf "/authors/%s" $author }}
+{{ $person_page := site.GetPage $person_page_path }}
+{{ if not $person_page }}
+  {{ errorf "Could not find an author page at `%s`." $person_page_path }}
+{{ end }}
+{{ $person := $person_page.Params }}
+{{ $avatar := ($person_page.Resources.ByType "image").GetMatch "*avatar*" }}
+{{ $bio := $block.content.text | default "Software engineer focused on building reliable AI, analytics, and product-minded systems." }}
+
+<div class="resume-biography hero-polish px-6 md:px-8">
+  <div class="hero-left">
+    {{ with $avatar }}
+      <img class="hero-avatar" src="{{ .RelPermalink }}" alt="{{ $person.title }}">
+    {{ end }}
+
+    <div class="hero-identity">
+      <h1 class="hero-name">{{ $person.title }}</h1>
+      {{ with $person.pronouns }}<p class="hero-pronouns">{{ . }}</p>{{ end }}
+      {{ with $person.role }}<p class="hero-role">{{ . }}</p>{{ end }}
+    </div>
+
+    {{ with $person.organizations }}
+      <div class="hero-orgs">
+        {{ range . }}
+          {{ $org := . }}
+          {{ $logo := "" }}
+          {{ with .icon }}
+            {{ $logo = resources.Get (printf "media/icons/%s" .) }}
+            {{ if not $logo }}
+              {{ $logo = resources.Get (printf "media/icons/brands/%s" .) }}
+            {{ end }}
+          {{ end }}
+          <a class="hero-org" href="{{ $org.url }}" target="_blank" rel="noopener">
+            {{ with $logo }}
+              <img src="{{ .RelPermalink }}" alt="{{ $org.name }} logo">
+            {{ end }}
+            <span>{{ $org.name }}</span>
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ with $person.profiles }}
+      <div class="hero-socials">
+        {{ range . }}
+          <a href="{{ .url }}" target="_blank" rel="noopener" aria-label="{{ .label | default .icon }}">
+            {{ partial "functions/get_icon" (dict "name" .icon "attributes" "style=\"height: 1.15rem; width: 1.15rem;\"") }}
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>
+
+  <div class="hero-right">
+    <div class="hero-bio">{{ $bio | $page.RenderString }}</div>
+
+    {{ with $block.content.button }}
+      <a class="hero-cta" href="{{ .url }}" target="_blank" rel="noopener">{{ .text }}</a>
+    {{ end }}
+
+    <div class="hero-panels">
+      {{ with $person.interests }}
+        <section class="hero-panel">
+          <h3>Interests</h3>
+          <ul class="hero-interest-list">
+            {{ range . }}
+              <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </section>
+      {{ end }}
+
+      {{ with $person.education }}
+        <section class="hero-panel">
+          <h3>Education</h3>
+          <div class="hero-education-list">
+            {{ range . }}
+              <div class="hero-education-item">
+                <div class="hero-education-row">
+                  <span class="hero-education-icon">{{ partial "functions/get_icon" (dict "name" "academic-cap" "attributes" "style=\"height: 1rem; width: 1rem;\"") }}</span>
+                  <div>
+                    <div class="hero-degree">{{ .area }}</div>
+                    <div class="hero-school">{{ .institution }}</div>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    </div>
+  </div>
+</div>

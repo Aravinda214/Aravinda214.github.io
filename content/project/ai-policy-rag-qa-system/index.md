@@ -3,6 +3,8 @@ title: AI Policy RAG QA System
 date: 2026-03-19
 summary: Retrieval-augmented question answering system for policy documents with semantic retrieval, chunking strategy, and model-comparison experiments.
 featured: true
+show_date: false
+reading_time: false
 links:
   - type: site
     url: https://github.com/Aravinda214/ai-policy-rag-qa-system
@@ -17,17 +19,17 @@ RAG system for semantic question answering over handbook-style policy documents,
 
 <!--more-->
 
-Highlights
+## Highlights
 
 - Built document chunking, embedding, retrieval, and grounded QA end to end.
 - Compared chunking strategies, similarity thresholds, and top-k retrieval settings.
 - Evaluated multiple models to understand quality and cost tradeoffs.
 - Focused on grounded answers rather than open-ended generation.
 
-Tech Stack
+## Tech Stack
 
 Python, FAISS, sentence-transformers, PyMuPDF, LlamaIndex, and OpenAI API.
 
-Why It Matters
+## Why It Matters
 
 This project shows the core design tradeoffs behind production RAG systems, especially around retrieval quality, chunking, and answer grounding.
