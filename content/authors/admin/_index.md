@@ -92,7 +92,7 @@ work:
     company_name: Carnegie Mellon University
     company_url: https://www.cmu.edu/
     date_start: '2026-01-01'
-    date_end: '2026-06-31'
+    date_end: '2026-06-30'
     summary: |2-
       Supporting research under [Prof. Mohsen Foroughifar](https://scholars.cmu.edu/13301-mohsen-foroughifar), [Prof. Minkyung Kim](https://scholars.cmu.edu/13042-minkyung-kim), and [Prof. Joy Lu](https://scholars.cmu.edu/8549-joy-lu) on large-scale digital advertising and bidstream data analysis.
       - Analyzed millions of advertising and bidding records to study user behavior, auction dynamics, and revenue patterns across channels
