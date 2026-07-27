@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Hugo build artifacts
+public/
+resources/
+.hugo_build.lock
+
+# Node / pnpm
+node_modules/

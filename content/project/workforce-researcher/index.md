@@ -8,7 +8,7 @@ reading_time: false
 links:
   - name: GitHub
     icon: brands/github
-    url: https://github.com/Aravinda214/workforce-researcher
+    url: https://github.com/Aravinda214/AI-SlackBot
 tags:
   - AI / ML
   - Analytics

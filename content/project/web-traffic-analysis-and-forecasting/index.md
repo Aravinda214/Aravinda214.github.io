@@ -8,7 +8,7 @@ reading_time: false
 links:
   - name: GitHub
     icon: brands/github
-    url: https://github.com/Aravinda214/web-traffic-analysis-and-forecasting
+    url: https://github.com/Aravinda214/web-traffic-analysis-forecasting
 tags:
   - Data Analytics
   - Forecasting

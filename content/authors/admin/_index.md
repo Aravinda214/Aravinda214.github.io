@@ -77,13 +77,24 @@ education:
       Built a strong foundation in computer science, software development, and applied machine learning through coursework, projects, and research-oriented work.
 
 work:
+  - position: AI Systems Management Intern
+    company_name: MCFA Global
+    company_url: 'https://mcfaglobal.com/'
+    date_start: '2026-06-01'
+    date_end: ''
+    summary: |2-
+      Building an AI-driven federal contract intelligence system end to end for a government contracting firm, shifting business development from reactive to proactive.
+      - Architected a three-layer AI pipeline integrating SAM.gov, USASpending.gov, and other federal data sources to surface contract opportunities 3 to 18 months before public posting
+      - Built Python data ingestion pipelines against federal REST APIs, resolving real production constraints including rate limits, pagination, and reconciliation across inconsistent data sources
+      - Migrated the system's core reasoning layer from Gemini to Claude Sonnet 5 mid-project, redesigning the underlying LLM client architecture without interrupting production use
+      - Directed an AI-driven research pipeline over a 12,000+ document internal archive to reconstruct institutional win/loss history, enforcing strict sourcing and data-security protocols
   - position: Research Assistant
     company_name: Carnegie Mellon University
     company_url: https://www.cmu.edu/
     date_start: '2026-01-01'
-    date_end: ''
+    date_end: '2026-06-31'
     summary: |2-
-      Supporting research under [Prof. Mohsen Foroughifar](https://scholars.cmu.edu/13301-mohsen-foroughifar) on large-scale digital advertising and bidstream data analysis.
+      Supporting research under [Prof. Mohsen Foroughifar](https://scholars.cmu.edu/13301-mohsen-foroughifar), [Prof. Minkyung Kim](https://scholars.cmu.edu/13042-minkyung-kim), and [Prof. Joy Lu](https://scholars.cmu.edu/8549-joy-lu) on large-scale digital advertising and bidstream data analysis.
       - Analyzed millions of advertising and bidding records to study user behavior, auction dynamics, and revenue patterns across channels
       - Built funnel-based and transition-based analyses to understand bidder movement, win patterns, CPM/RPM behavior, and session-level outcomes
       - Worked with aggregated and granular datasets to compare behavioral and monetization shifts across time periods

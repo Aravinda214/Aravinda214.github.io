@@ -32,7 +32,7 @@ featured: false
 
 links:
   - type: pdf
-    url: opinion-mining.pdf
+    url: opinion_mining.pdf
   - type: site
     url: https://ieeexplore.ieee.org/abstract/document/9783508
 
